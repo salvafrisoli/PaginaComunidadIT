@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form method="GET" action="formularioenviado.html" style="text-align: center;" >
+
+
+        <label for="fNombre">Nombre y apellido</label>
+        <input type="text" id="fNombre" name="nombre" required><br>
+        <br>
+        
+        <label for="fNacimiento">Fecha de nacimiento</label>
+        <input type="datetime-local" id="fNacimiento" name="nacimiento" required ><br>
+        <br>
+        <label for="fLocalidad">Localidad</label>
+        <input type="text" id="fLocalidad" name="localidad" required><br>
+        <br>
+        <label for="fTrabajo">Experiencia laboral</label><br>
+        <textarea name="trabajo" id="fTrabajo" cols="100" rows="7" required></textarea><br>
+        <br>
+
+        <label for="fEstudios">Estudios previos</label><br>
+        <textarea name="estudios" id="fEstudios" cols="100" rows="7" required></textarea><br>
+        <br>
+        <label for="fProgramacion">Experiencia en informatica/programacion (hardware y software)</label><br>
+        <textarea name="programacion" id="fProgramacion" cols="100" rows="7" required></textarea><br>
+        <br>
+        <label for="fActualidad" required>¿Actualmente esta trabajando?</label><br>
+        <input type="radio" id="Si" name="fActualidad">Si <br>
+        <input type="radio" id="No" name="fActualidad">No <br>
+        <br>
+        <label for="fDisponibilidad">¿Que dias tiene disponible?</label><br>
+        <textarea name="disponibilidad" id="fDisponibilidad" cols="100" rows="5" required></textarea><br>
+
+        <label for="fTurno">Indique disponibilidad de turno</label>
+        <select name="turno" id="fTurno" required>
+            <option value="1">Mañana</option>
+            <option value="2">Tarde</option>
+            <option value="3">Noche</option>
+
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar formulario"> 
+    
+    </form>
+    <br>
+    <br>
+    <br>
+    <a href="indexPagina.html">Volver al inicio</a><br>
+</body>
+</html>

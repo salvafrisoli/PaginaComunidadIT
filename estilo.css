@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200;500&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body {
+    background-color: azure;
+}
+h1  {
+    text-align: center;
+    font-family:'Krona One', sans-serif;
+    color: darkcyan;
+    font-size: 70px;
+}
+h2 {
+    text-align: center;
+    font-family:'Krona One', sans-serif;
+    color: darkcyan;
+}
+p {
+    text-align: center;
+    font-size:2rem;
+    font-family: 'Antonio', sans-serif;;
+}
+a {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    color: darkcyan;
+    
+}
+.cajaLink {
+    border: 2px solid darkcyan;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 252, 170);
+    margin: 20px;
+}
+label {
+    font-family:'Krona One', sans-serif;
+    color: darkcyan;
+
+}
